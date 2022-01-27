@@ -15,9 +15,9 @@ for guessestaken in range(1,7):
     elif guess > secretnumber:
         print('your guess is too high.')
     else:
-        break: #this condition is the correct guess!
+        break #this condition is the correct guess!
 
-if guess == secretnumber
-    print ('good job, ' + name + "!you guessed mu number in " + set(guessestaken) + 'guesses!')
+if guess == secretnumber:
+    print ('good job, ' + name + "!you guessed mu number in " + str(guessestaken) + ' guesses!')
 else:
     print ('nope . the number i was thinking of was '+ str(secretnumber))
